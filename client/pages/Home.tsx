@@ -120,8 +120,8 @@ export default function Home() {
       <section
         className="relative text-white overflow-hidden min-h-screen flex items-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F445d834a8e754ff095634d89c53feadc%2F7855e3dd405f4595bc1b0810358b925f?format=webp&width=1200')`,
-          backgroundPosition: "left center",
+          backgroundImage: `url('https://images.unsplash.com/photo-1553882900-f2b06423ff1d?w=1400&h=900&fit=crop')`,
+          backgroundPosition: "center right",
         }}
       >
         {/* Premium Dark Overlay for Text Readability */}
