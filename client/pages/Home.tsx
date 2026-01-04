@@ -166,18 +166,18 @@ export default function Home() {
                 </a>
               </div>
 
-              <div className="flex gap-6 pt-4 text-sm">
-                <div>
-                  <p className="text-gold font-bold text-xl">500+</p>
-                  <p className="text-gray-300">Happy Customers</p>
+              <div className="flex gap-8 pt-8">
+                <div className="border-l-2 border-gold pl-6">
+                  <p className="text-gold font-bold text-2xl">500+</p>
+                  <p className="text-gray-200 text-sm">Happy Customers</p>
                 </div>
-                <div>
-                  <p className="text-gold font-bold text-xl">1000+</p>
-                  <p className="text-gray-300">Cars Sold</p>
+                <div className="border-l-2 border-gold pl-6">
+                  <p className="text-gold font-bold text-2xl">1000+</p>
+                  <p className="text-gray-200 text-sm">Cars Delivered</p>
                 </div>
-                <div>
-                  <p className="text-gold font-bold text-xl">5★</p>
-                  <p className="text-gray-300">4.8 Average Rating</p>
+                <div className="border-l-2 border-gold pl-6">
+                  <p className="text-gold font-bold text-2xl">4.8★</p>
+                  <p className="text-gray-200 text-sm">Average Rating</p>
                 </div>
               </div>
             </div>
