@@ -117,19 +117,19 @@ export default function Home() {
       <NavBar />
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-navy via-blue-900 to-navy text-white overflow-hidden">
-        {/* Background Pattern */}
-        <div className="absolute inset-0 opacity-10">
-          <div
-            className="absolute inset-0"
-            style={{
-              backgroundImage:
-                "radial-gradient(circle at 20% 50%, gold 0%, transparent 50%)",
-            }}
-          />
-        </div>
+      <section
+        className="relative text-white overflow-hidden min-h-screen flex items-center bg-cover bg-center bg-no-repeat"
+        style={{
+          backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F445d834a8e754ff095634d89c53feadc%2F20fc3103db5d4f3a9b51672b01ab3cdc?format=webp&width=1200')`,
+        }}
+      >
+        {/* Dark Overlay for Text Readability */}
+        <div className="absolute inset-0 bg-black/40" />
 
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32">
+        {/* Gradient Overlay from Left */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent" />
+
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             {/* Left Content */}
             <div className="space-y-6">
@@ -141,7 +141,7 @@ export default function Home() {
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
                 Find Your Perfect Car Today
               </h1>
-              <p className="text-lg text-gray-300 max-w-lg">
+              <p className="text-lg text-gray-200 max-w-lg">
                 Discover premium pre-owned vehicles at unbeatable prices. Trusted by thousands of happy customers.
               </p>
 
@@ -179,15 +179,8 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Right Image */}
-            <div className="relative hidden md:block">
-              <div className="absolute inset-0 bg-gradient-to-r from-gold/20 to-gold/10 rounded-2xl blur-3xl" />
-              <img
-                src="https://images.unsplash.com/photo-1606611013016-969c19f27081?w=600&h=500&fit=crop"
-                alt="Premium Car"
-                className="relative w-full h-auto rounded-2xl shadow-2xl"
-              />
-            </div>
+            {/* Right Side - Empty for Image Breathing Room */}
+            <div className="hidden md:block" />
           </div>
         </div>
       </section>
