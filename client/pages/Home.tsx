@@ -118,10 +118,11 @@ export default function Home() {
 
       {/* Hero Section */}
       <section
-        className="relative text-white overflow-hidden min-h-screen flex items-center bg-cover bg-center bg-no-repeat"
+        className="relative text-white overflow-hidden min-h-screen flex items-center bg-cover bg-right bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1553882900-f2b06423ff1d?w=1400&h=900&fit=crop')`,
-          backgroundPosition: "center right",
+          backgroundImage: `url('https://images.unsplash.com/photo-1611339555312-e607c04352fa?w=1400&h=900&fit=crop')`,
+          backgroundPosition: "right center",
+          backgroundSize: "cover",
         }}
       >
         {/* Premium Dark Overlay for Text Readability */}
