@@ -137,15 +137,15 @@ export default function Home() {
             {/* Left Content */}
             <div className="space-y-6">
               <div className="inline-block">
-                <span className="bg-gold/20 text-gold px-4 py-2 rounded-full text-sm font-semibold">
+                <span className="bg-gold/30 text-gold px-4 py-2 rounded-full text-sm font-semibold uppercase tracking-wider backdrop-blur-sm">
                   Premium Pre-Owned Cars
                 </span>
               </div>
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight">
-                Find Your Perfect Car Today
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight text-white drop-shadow-lg">
+                Find Your <span className="text-gold">Perfect Car</span> Today
               </h1>
-              <p className="text-lg text-gray-200 max-w-lg">
-                Discover premium pre-owned vehicles at unbeatable prices. Trusted by thousands of happy customers.
+              <p className="text-lg text-gray-100 max-w-lg drop-shadow-md leading-relaxed font-light">
+                Where luxury meets affordability. Discover handpicked premium vehicles with unmatched quality and exceptional value.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-4">
