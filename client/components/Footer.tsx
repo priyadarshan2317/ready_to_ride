@@ -1,4 +1,12 @@
-import { MapPin, Phone, Mail, Clock, Facebook, Instagram, Linkedin } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Clock,
+  Facebook,
+  Instagram,
+  Linkedin,
+} from "lucide-react";
 
 export default function Footer() {
   return (
@@ -14,7 +22,8 @@ export default function Footer() {
               <span className="font-bold text-xl">Ready to Ride</span>
             </div>
             <p className="text-gray-300 text-sm leading-relaxed">
-              Premium pre-owned cars at unbeatable prices. Your trusted partner in finding the perfect vehicle.
+              Premium pre-owned cars at unbeatable prices. Your trusted partner
+              in finding the perfect vehicle.
             </p>
           </div>
 
@@ -23,22 +32,34 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4 text-gold">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <a href="/" className="text-gray-300 hover:text-gold transition-colors">
+                <a
+                  href="/"
+                  className="text-gray-300 hover:text-gold transition-colors"
+                >
                   Home
                 </a>
               </li>
               <li>
-                <a href="#cars" className="text-gray-300 hover:text-gold transition-colors">
+                <a
+                  href="#cars"
+                  className="text-gray-300 hover:text-gold transition-colors"
+                >
                   Our Cars
                 </a>
               </li>
               <li>
-                <a href="#reviews" className="text-gray-300 hover:text-gold transition-colors">
+                <a
+                  href="#reviews"
+                  className="text-gray-300 hover:text-gold transition-colors"
+                >
                   Reviews
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-300 hover:text-gold transition-colors">
+                <a
+                  href="#"
+                  className="text-gray-300 hover:text-gold transition-colors"
+                >
                   About Us
                 </a>
               </li>

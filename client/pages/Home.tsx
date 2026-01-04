@@ -1,7 +1,14 @@
 import NavBar from "@/components/NavBar";
 import Footer from "@/components/Footer";
 import CarCard from "@/components/CarCard";
-import { Star, Shield, Zap, TrendingDown, ArrowRight, MapPin } from "lucide-react";
+import {
+  Star,
+  Shield,
+  Zap,
+  TrendingDown,
+  ArrowRight,
+  MapPin,
+} from "lucide-react";
 
 export default function Home() {
   // Featured cars data
@@ -129,9 +136,13 @@ export default function Home() {
         <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent" />
 
         {/* Subtle Vignette Effect */}
-        <div className="absolute inset-0" style={{
-          backgroundImage: "radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.2) 100%)"
-        }} />
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage:
+              "radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.2) 100%)",
+          }}
+        />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -146,7 +157,8 @@ export default function Home() {
                 Find Your <span className="text-gold">Perfect Car</span> Today
               </h1>
               <p className="text-lg text-gray-100 max-w-lg drop-shadow-md leading-relaxed font-light">
-                Where luxury meets affordability. Discover handpicked premium vehicles with unmatched quality and exceptional value.
+                Where luxury meets affordability. Discover handpicked premium
+                vehicles with unmatched quality and exceptional value.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4 pt-6">
@@ -194,10 +206,13 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-              Your Trusted Partner in <span className="text-gold">Premium</span> Cars
+              Your Trusted Partner in <span className="text-gold">Premium</span>{" "}
+              Cars
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              At the heart of Ready to Ride is a promise to bring quality pre-owned vehicles that meet your needs and exceed your expectations.
+              At the heart of Ready to Ride is a promise to bring quality
+              pre-owned vehicles that meet your needs and exceed your
+              expectations.
             </p>
           </div>
 
@@ -210,7 +225,8 @@ export default function Home() {
                 Certified Quality
               </h3>
               <p className="text-muted-foreground text-sm">
-                Every vehicle undergoes rigorous inspection for quality assurance
+                Every vehicle undergoes rigorous inspection for quality
+                assurance
               </p>
             </div>
 
@@ -222,7 +238,8 @@ export default function Home() {
                 Best Prices
               </h3>
               <p className="text-muted-foreground text-sm">
-                Unbeatable pricing with transparent negotiations and no hidden costs
+                Unbeatable pricing with transparent negotiations and no hidden
+                costs
               </p>
             </div>
 
@@ -293,7 +310,8 @@ export default function Home() {
               Best Price <span className="text-gold">Challenge</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Discover our premium collection of pre-owned vehicles. We have the best price for every car sold in our showroom.
+              Discover our premium collection of pre-owned vehicles. We have the
+              best price for every car sold in our showroom.
             </p>
           </div>
 
@@ -323,7 +341,8 @@ export default function Home() {
             Want to See Our <span className="text-gold">Live Inventory?</span>
           </h2>
           <p className="text-lg text-gray-300 mb-8">
-            Click below to view our updated car catalog on WhatsApp. Get instant access to the latest vehicles, prices, and specifications.
+            Click below to view our updated car catalog on WhatsApp. Get instant
+            access to the latest vehicles, prices, and specifications.
           </p>
           <a
             href="https://wa.me/918754953653?text=Hi%20Ready%20to%20Ride,%20I%20would%20like%20to%20view%20your%20live%20inventory%20catalog"
@@ -348,7 +367,8 @@ export default function Home() {
               What Our <span className="text-gold">Customers</span> Say
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Read testimonials from satisfied customers who found their perfect car with us
+              Read testimonials from satisfied customers who found their perfect
+              car with us
             </p>
           </div>
 
@@ -361,11 +381,7 @@ export default function Home() {
                 {/* Rating */}
                 <div className="flex gap-1 mb-4">
                   {Array.from({ length: review.rating }).map((_, i) => (
-                    <Star
-                      key={i}
-                      size={16}
-                      className="fill-gold text-gold"
-                    />
+                    <Star key={i} size={16} className="fill-gold text-gold" />
                   ))}
                 </div>
 
@@ -410,7 +426,8 @@ export default function Home() {
               Visit Our <span className="text-gold">Showroom</span>
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Experience luxury and quality firsthand at our state-of-the-art showroom
+              Experience luxury and quality firsthand at our state-of-the-art
+              showroom
             </p>
           </div>
 
@@ -437,7 +454,9 @@ export default function Home() {
                   <p className="text-muted-foreground">
                     Mon-Sat: 9:00 AM - 8:00 PM
                   </p>
-                  <p className="text-muted-foreground">Sun: 10:00 AM - 6:00 PM</p>
+                  <p className="text-muted-foreground">
+                    Sun: 10:00 AM - 6:00 PM
+                  </p>
                 </div>
                 <a
                   href="tel:+918754953653"
@@ -470,7 +489,9 @@ export default function Home() {
                   <p className="text-muted-foreground">
                     Mon-Sat: 9:00 AM - 8:00 PM
                   </p>
-                  <p className="text-muted-foreground">Sun: 10:00 AM - 6:00 PM</p>
+                  <p className="text-muted-foreground">
+                    Sun: 10:00 AM - 6:00 PM
+                  </p>
                 </div>
                 <a
                   href="https://wa.me/918754953653"

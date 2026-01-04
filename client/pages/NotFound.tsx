@@ -25,7 +25,8 @@ const NotFound = () => {
             Page Not Found
           </p>
           <p className="text-lg text-muted-foreground mb-8">
-            Sorry, the page you're looking for doesn't exist. This might be a feature coming soon!
+            Sorry, the page you're looking for doesn't exist. This might be a
+            feature coming soon!
           </p>
 
           <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
@@ -33,7 +34,9 @@ const NotFound = () => {
               Looking for something?
             </p>
             <p className="text-sm text-blue-800">
-              We're continuously expanding our website. If you're looking for a specific feature or page, please let us know through WhatsApp or email, and we'll be happy to help!
+              We're continuously expanding our website. If you're looking for a
+              specific feature or page, please let us know through WhatsApp or
+              email, and we'll be happy to help!
             </p>
           </div>
 

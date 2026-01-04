@@ -25,16 +25,28 @@ export default function NavBar() {
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
-            <Link to="/" className="text-foreground hover:text-gold transition-colors font-medium">
+            <Link
+              to="/"
+              className="text-foreground hover:text-gold transition-colors font-medium"
+            >
               Home
             </Link>
-            <a href="#cars" className="text-foreground hover:text-gold transition-colors font-medium">
+            <a
+              href="#cars"
+              className="text-foreground hover:text-gold transition-colors font-medium"
+            >
               Cars
             </a>
-            <a href="#reviews" className="text-foreground hover:text-gold transition-colors font-medium">
+            <a
+              href="#reviews"
+              className="text-foreground hover:text-gold transition-colors font-medium"
+            >
               Reviews
             </a>
-            <a href="#contact" className="text-foreground hover:text-gold transition-colors font-medium">
+            <a
+              href="#contact"
+              className="text-foreground hover:text-gold transition-colors font-medium"
+            >
               Contact
             </a>
             <a

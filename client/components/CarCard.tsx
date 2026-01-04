@@ -63,7 +63,7 @@ export default function CarCard({
         {/* Action Button */}
         <a
           href={`https://wa.me/918754953653?text=Hi%20Ready%20to%20Ride,%20I%20am%20interested%20in%20the%20${encodeURIComponent(
-            name
+            name,
           )}`}
           target="_blank"
           rel="noopener noreferrer"
