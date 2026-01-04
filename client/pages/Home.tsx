@@ -120,14 +120,17 @@ export default function Home() {
       <section
         className="relative text-white overflow-hidden min-h-screen flex items-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F445d834a8e754ff095634d89c53feadc%2F20fc3103db5d4f3a9b51672b01ab3cdc?format=webp&width=1200')`,
+          backgroundImage: `url('https://cdn.builder.io/api/v1/image/assets%2F445d834a8e754ff095634d89c53feadc%2F7855e3dd405f4595bc1b0810358b925f?format=webp&width=1200')`,
+          backgroundPosition: "left center",
         }}
       >
-        {/* Dark Overlay for Text Readability */}
-        <div className="absolute inset-0 bg-black/40" />
+        {/* Premium Dark Overlay for Text Readability */}
+        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
 
-        {/* Gradient Overlay from Left */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent" />
+        {/* Subtle Vignette Effect */}
+        <div className="absolute inset-0" style={{
+          backgroundImage: "radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.3) 100%)"
+        }} />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 w-full">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
