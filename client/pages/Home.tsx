@@ -148,21 +148,21 @@ export default function Home() {
                 Where luxury meets affordability. Discover handpicked premium vehicles with unmatched quality and exceptional value.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-4 pt-4">
+              <div className="flex flex-col sm:flex-row gap-4 pt-6">
                 <a
                   href="#cars"
-                  className="bg-gold hover:bg-gold-dark text-navy font-bold px-8 py-3 rounded-lg transition-colors inline-flex items-center justify-center gap-2"
+                  className="bg-gold hover:bg-gold-dark text-navy font-bold px-8 py-3 rounded-lg transition-all duration-300 inline-flex items-center justify-center gap-2 shadow-lg hover:shadow-xl hover:scale-105"
                 >
-                  Browse Cars
+                  Explore Our Collection
                   <ArrowRight size={20} />
                 </a>
                 <a
                   href="https://wa.me/918754953653?text=Hi%20Ready%20to%20Ride,%20I%20would%20like%20to%20view%20your%20latest%20car%20catalog"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="bg-white hover:bg-gray-100 text-navy font-bold px-8 py-3 rounded-lg transition-colors"
+                  className="bg-white/90 hover:bg-white text-navy font-bold px-8 py-3 rounded-lg transition-all duration-300 backdrop-blur-sm shadow-lg hover:shadow-xl"
                 >
-                  WhatsApp Catalog
+                  View Featured Cars
                 </a>
               </div>
 
