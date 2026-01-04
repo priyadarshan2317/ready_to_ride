@@ -120,8 +120,8 @@ export default function Home() {
       <section
         className="relative text-white overflow-hidden min-h-screen flex items-center bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=1400&h=900&fit=crop')`,
-          backgroundPosition: "center right",
+          backgroundImage: `url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=1400&h=900&fit=crop')`,
+          backgroundPosition: "center",
           backgroundSize: "cover",
         }}
       >
