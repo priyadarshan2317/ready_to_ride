@@ -14,7 +14,7 @@ export default function Home() {
       mileage: "12,500 km",
       fuel: "Petrol",
       image:
-        "https://images.unsplash.com/photo-1606611013016-969c19f27081?w=500&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1614162692292-7ac56d7f7f1e?w=500&h=400&fit=crop",
       badge: "Best Price",
     },
     {
@@ -25,7 +25,7 @@ export default function Home() {
       mileage: "18,000 km",
       fuel: "Diesel",
       image:
-        "https://images.unsplash.com/photo-1606611013016-969c19f27081?w=500&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?w=500&h=400&fit=crop",
       badge: "Premium",
     },
     {
@@ -36,7 +36,7 @@ export default function Home() {
       mileage: "25,000 km",
       fuel: "Diesel",
       image:
-        "https://images.unsplash.com/photo-1606611013016-969c19f27081?w=500&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1553882900-f2b06423ff1d?w=500&h=400&fit=crop",
     },
     {
       id: 4,
@@ -46,7 +46,7 @@ export default function Home() {
       mileage: "16,000 km",
       fuel: "Petrol",
       image:
-        "https://images.unsplash.com/photo-1606611013016-969c19f27081?w=500&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1568605114967-8130f3a36994?w=500&h=400&fit=crop",
       badge: "Hot Deal",
     },
     {
@@ -57,7 +57,7 @@ export default function Home() {
       mileage: "28,000 km",
       fuel: "Petrol",
       image:
-        "https://images.unsplash.com/photo-1606611013016-969c19f27081?w=500&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=500&h=400&fit=crop",
       badge: "Luxury",
     },
     {
@@ -68,7 +68,7 @@ export default function Home() {
       mileage: "8,000 km",
       fuel: "Diesel",
       image:
-        "https://images.unsplash.com/photo-1606611013016-969c19f27081?w=500&h=400&fit=crop",
+        "https://images.unsplash.com/photo-1611339555312-e607c04352fa?w=500&h=400&fit=crop",
       badge: "Low Mileage",
     },
   ];
