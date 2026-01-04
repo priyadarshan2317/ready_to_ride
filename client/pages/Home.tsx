@@ -126,11 +126,11 @@ export default function Home() {
         }}
       >
         {/* Premium Dark Overlay for Text Readability */}
-        <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/20" />
+        <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-transparent" />
 
         {/* Subtle Vignette Effect */}
         <div className="absolute inset-0" style={{
-          backgroundImage: "radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.3) 100%)"
+          backgroundImage: "radial-gradient(ellipse at center, transparent 0%, rgba(0,0,0,0.2) 100%)"
         }} />
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 w-full">
